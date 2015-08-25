@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5221b7e2-26ee-4b48-ac71-11443adea997}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>PiTFTWeather.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="00.png" />
+    <Content Include="01.png" />
+    <Content Include="02.png" />
+    <Content Include="03.png" />
+    <Content Include="04.png" />
+    <Content Include="05.png" />
+    <Content Include="06.png" />
+    <Content Include="07.png" />
+    <Content Include="08.png" />
+    <Content Include="09.png" />
+    <Content Include="10.png" />
+    <Content Include="11.png" />
+    <Content Include="12.png" />
+    <Content Include="13.png" />
+    <Content Include="14.png" />
+    <Content Include="15.png" />
+    <Content Include="16.png" />
+    <Content Include="17.png" />
+    <Content Include="18.png" />
+    <Content Include="19.png" />
+    <Content Include="20.png" />
+    <Content Include="21.png" />
+    <Content Include="22.png" />
+    <Content Include="23.png" />
+    <Content Include="24.png" />
+    <Content Include="25.png" />
+    <Content Include="26.png" />
+    <Content Include="27.png" />
+    <Content Include="28.png" />
+    <Content Include="29.png" />
+    <Content Include="30.png" />
+    <Content Include="31.png" />
+    <Content Include="32.png" />
+    <Content Include="33.png" />
+    <Content Include="34.png" />
+    <Content Include="35.png" />
+    <Content Include="36.png" />
+    <Content Include="37.png" />
+    <Content Include="38.png" />
+    <Content Include="39.png" />
+    <Content Include="40.png" />
+    <Content Include="41.png" />
+    <Content Include="42.png" />
+    <Content Include="43.png" />
+    <Content Include="44.png" />
+    <Content Include="45.png" />
+    <Content Include="46.png" />
+    <Content Include="47.png" />
+    <Content Include="na.png" />
+    <Content Include="Weather Icon Readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PiTFTWeather.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
